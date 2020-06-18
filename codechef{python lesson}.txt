@@ -1,0 +1,24 @@
+# cook your dish here
+try:
+    t=int(input())
+    while t>0:
+        l=input()
+        l=list(l)
+        print(l)
+        k=[]
+        c=[]#barna asli list me v same changes jo c me
+        k=k+l
+        c=c+l
+        k.pop(0)
+        c.pop(len(l)-1)
+        k.append(l[0])
+        k=str(k)
+        c.insert(0,l[len(l)-1])
+        c=str(c)
+        if k==c:
+            print("YES")
+        else:
+            print("NO")
+        t=t-1
+except:
+    a=9

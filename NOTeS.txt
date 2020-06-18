@@ -1,0 +1,24 @@
+1)java does not make use of pointers.
+2)modulus operator here can be used for floating point values also.
+3)for(int x=2;;)-> x is valid till scope of for loop only.
+4)this keyword se same parameter and same variable name can be used -> this.bed=bed;
+5)call  by refernce is done through objects.
+6)methods of same class can be used without objects.
+7)this and super can't be used with static variables.
+8)static things can be accessed without the creation of objects.
+9)Outside of the class in which they are defined, static methods and variables can be used
+independently of any object. To do so, you need only specify the name of their class followed
+by the dot operator.
+10)enclosing class does not have access to the members of the nested class.
+11)
+There are two types of nested classes: static and non-static. A static nested class is one
+that has the static modifier applied. Because it is static, it must access the members of its
+enclosing class through an object. That is, it cannot refer to members of its enclosing class
+directly. Because of this restriction, static nested classes are seldom used.
+The most important type of nested class is the inner class. An inner class is a non-static
+nested class. It has access to all of the variables and methods of its outer class and may refer
+to them directly in the same way that other non-static members of the outer class do.
+12)
+FUNCTION OF OUTER CLASS CAN'T BE ACCESSED IN INNER CLASS  IN ANY WAY(TEST).
+13) string.length() and array.length;
+14)strings are immutable character at particular cant be altered directly.
